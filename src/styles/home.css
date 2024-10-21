@@ -1,0 +1,22 @@
+body {
+    background-color: #faf3dd;
+}
+
+#content {
+    border: 1px solid red;
+    display: flex;
+    background-color: #faf3dd;
+}
+
+h1 {
+    color: #4a7c59;
+}
+
+h2 {
+    color: #68b0ab;
+}
+
+.hero-image {
+    width: 25%;
+    height: 25%;
+}
