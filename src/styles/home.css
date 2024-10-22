@@ -1,22 +1,25 @@
 body {
     background-color: #faf3dd;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 #content {
     border: 1px solid red;
     display: flex;
     background-color: #faf3dd;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    flex: 1;
 }
 
 h1 {
     color: #4a7c59;
+    font-size: 64px;
 }
 
 h2 {
     color: #68b0ab;
-}
-
-.hero-image {
-    width: 25%;
-    height: 25%;
 }

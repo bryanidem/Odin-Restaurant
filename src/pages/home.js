@@ -1,4 +1,4 @@
-import heartBread from "../assets/images/heart-bread-image.png";
+import heartBread from "../assets/images/burguer.png";
 import "../styles/home.css";
 
 const home = () => {
@@ -11,16 +11,25 @@ const heroContent = (content) => {
     const heroText = document.createElement("div");
     heroContent.className = "hero-content";
 
-    const title = document.createElement("h1");
-    title.textContent = "Panfilo's Bakery";
+    const title1 = document.createElement("h1");
+    title1.textContent = "Bryan's";
+
+    const title2 = document.createElement("h1");
+    title2.textContent = "Burguer";
+
+    const titles = document.createElement("div");
+    titles.className = "titles";
 
     const slogan = document.createElement("h2");
-    slogan.textContent = "Where Love and Bread Rise Togheter";
+    slogan.textContent = "No beef with our burgers, just pure joy!";
 
     const buyButton = document.createElement("button");
     buyButton.innerText = "Buy Now";
 
-    heroText.appendChild(title);
+    titles.appendChild(title1);
+    titles.appendChild(title2);
+    heroText.appendChild(titles);
+
     heroText.appendChild(slogan);
     heroText.appendChild(buyButton);
 
