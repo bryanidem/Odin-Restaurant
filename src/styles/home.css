@@ -23,3 +23,8 @@ h1 {
 h2 {
     color: #68b0ab;
 }
+
+.burguer-img {
+    width: 250px;
+    height: 250px;
+}
