@@ -5,7 +5,7 @@ import menu from "./pages/menu";
 const main = () => {
     const headerButtons = document.querySelectorAll("nav>button");
     const content = document.querySelector("#content");
-
+    home();
     headerButtons.forEach((button) => {
         button.addEventListener("click", (event) => {
             const buttonId = event.target.id;
@@ -28,6 +28,5 @@ const main = () => {
         });
     });
 };
-// home();
-contact();
+
 main();
