@@ -1,3 +1,5 @@
+import "../styles/contact.css";
+
 const contact = () => {
     const content = document.querySelector("#content");
     contactLogo(content);

@@ -1,0 +1,10 @@
+.contactContainer {
+    border: 2px solid #fefae0;
+    border-radius: 10px;
+    padding: 100px;
+
+    p {
+        color: #fefae0;
+        font-size: 20px;
+    }
+}
