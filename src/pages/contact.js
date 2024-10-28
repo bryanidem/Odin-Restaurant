@@ -8,19 +8,16 @@ const contactLogo = (content) => {
     const titles = document.createElement("div");
     titles.className = "titles";
 
-    const title1 = document.createElement("h1");
-    title1.textContent = "Bryan's";
+    const title = document.createElement("h1");
+    title.textContent = "Burguers";
 
-    const title2 = document.createElement("h1");
-    title2.textContent = "Burguers";
-
-    titles.appendChild(title1);
-    titles.appendChild(title2);
+    titles.appendChild(title);
     content.appendChild(titles);
 };
 
 const contactText = (content) => {
     const contactContainer = document.createElement("div");
+    contactContainer.className = "contactContainer";
 
     const title = document.createElement("h2");
     title.textContent = "Find us here:";
